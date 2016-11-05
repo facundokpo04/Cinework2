@@ -139,6 +139,6 @@ class RestApi{
 }
 
 RestApi::initialize(
-    'http://localhost/23-ci-emp-crud/api/public/',
+    'http://localhost/cinework/api/public/',
     'APP-TOKEN'
 );
