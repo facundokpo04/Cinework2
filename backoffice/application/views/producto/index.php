@@ -8,8 +8,12 @@
 <ol class="breadcrumb">
   <li class="active">Productos</li>
 </ol>
-
-<table class="table table-striped table-bordered">
+<div class="widget-box">
+          <div class="widget-title"> <span class="icon"><i class="icon-th"></i></span>
+            <h5>Productos</h5>
+          </div>
+<div class="widget-content nopadding">     
+<table id=id="DataTables_Table_0" class="table table-striped table-bordered  data-table">
     <thead>
         <tr>
             <th style="width:60px;"></th>
@@ -40,5 +44,9 @@
   <?php endforeach; ?>
     </tbody>
 </table>
+
+</div>
+
+</div>
 
 <?php echo $this->pagination->create_links(); ?>

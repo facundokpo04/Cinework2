@@ -10,12 +10,19 @@
     <link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet" />
     <link href="<?php echo base_url('assets/css/bootstrap-theme.min.css'); ?>" rel="stylesheet" />
     <link href="<?php echo base_url('assets/css/style.css'); ?>" rel="stylesheet" />
-</head>
+    <link href="<?php echo base_url('assets/css/bootstrap-responsive.min.css'); ?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/css/fullcalendar.css'); ?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/css/matrix-style.css'); ?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/css/matrix-media.css'); ?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/font-awesome/css/font-awesome.css'); ?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/css/jquery.gritter.css'); ?>" rel="stylesheet" />
+    
+    
 
 <body>
 
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid" >
+        <div class="row-fluid">
             <div class="col-xs-12">
 
                 <?php if(isset($user)): ?>

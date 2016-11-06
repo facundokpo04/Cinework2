@@ -27,7 +27,7 @@
 
 <input type="hidden" name="id" value="<?php echo is_object($model) ? $model->id : ''; ?>" />
 
-<div class="form-group">
+<div class="form-horizontal"  >
     <label>Nombre</label>
    <input type="text" name="Nombre" class="form-control" placeholder="Ingrese el nombre" value="<?php echo is_object($model) ? $model->Nombre : ''; ?>">
 </div>
@@ -36,13 +36,18 @@
     <label>Precio</label>
     <input type="text" name="Precio" class="form-control" placeholder="Ingrese el precio" value="<?php echo is_object($model) ? $model->Precio : ''; ?>">
 </div>
+
 <div class="form-group">
-    <label>Imagen</label>
-    <input type="file" name="File" class="form-control">
+    <label for="exampleInputFile">Imagen</label>
+    <input type="file" name="File" >
+ 
 </div>
+
 
 <button class="btn btn-primary" type="submit">
     Enviar
 </button>
+
+
 
 <?php echo form_close(); ?>
