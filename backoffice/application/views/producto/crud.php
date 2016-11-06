@@ -20,9 +20,14 @@
     </li>
 </ol>
 
-
+ <div class="widget-box">
+        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+          <h5>Producto Informacion</h5>
+  </div>
 
 <?php echo form_open('producto/guardar', ['enctype' => 'multipart/form-data']); ?>
+<div class="widget-content nopadding">
+
 
 
 <input type="hidden" name="id" value="<?php echo is_object($model) ? $model->id : ''; ?>" />
@@ -38,15 +43,14 @@
 </div>
 
 <div class="form-group">
-    <label for="exampleInputFile">Imagen</label>
-    <input type="file" name="File" >
- 
+    <label>Imagen</label>
+    <input type="file" name="File" > 
 </div>
-
-
+</div>
 <button class="btn btn-primary" type="submit">
     Enviar
 </button>
+
 
 
 

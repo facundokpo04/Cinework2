@@ -5,9 +5,6 @@
     Productos
 </h1>
 
-<ol class="breadcrumb">
-  <li class="active">Productos</li>
-</ol>
 <div class="widget-box">
           <div class="widget-title"> <span class="icon"><i class="icon-th"></i></span>
             <h5>Productos</h5>
