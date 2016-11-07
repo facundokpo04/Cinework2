@@ -11,20 +11,19 @@
     <link href="<?php echo base_url('assets/css/bootstrap-theme.min.css'); ?>" rel="stylesheet" />
     <link href="<?php echo base_url('assets/css/style.css'); ?>" rel="stylesheet" />
     <link href="<?php echo base_url('assets/css/bootstrap-responsive.min.css'); ?>" rel="stylesheet" />
-    <link href="<?php echo base_url('assets/css/fullcalendar.css'); ?>" rel="stylesheet" />
-    <link href="<?php echo base_url('assets/css/matrix-style.css'); ?>" rel="stylesheet" />
-    <link href="<?php echo base_url('assets/css/matrix-media.css'); ?>" rel="stylesheet" />
-    <link href="<?php echo base_url('assets/font-awesome/css/font-awesome.css'); ?>" rel="stylesheet" />
-    <link href="<?php echo base_url('assets/css/jquery.gritter.css'); ?>" rel="stylesheet" />
-    
-    
+    <link href="<?php echo base_url('assets/css/bootstrap-responsive.min.css'); ?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/vendor/metisMenu/metisMenu.min.css'); ?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/vendor/datatables-plugins/dataTables.bootstrap.css'); ?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/vendor/datatables-responsive/dataTables.responsive.css'); ?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/dist/css/sb-admin-2.css'); ?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/vendor/font-awesome/css/font-awesome.min.css'); ?>" rel="stylesheet" />
+     
 
 <body>
 
     <div class="container" >
         <div class="row-fluid">
             <div class="col-xs-12">
-
                 <?php if(isset($user)): ?>
                     <nav class="navbar navbar-default">
                         <div class="container-fluid">

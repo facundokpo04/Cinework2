@@ -39,7 +39,9 @@
 <div class="form-group">
     <label>Imagen</label>
     <div class="panel panel-default">
+     <div class="panel-body">
      <input  type="file" name="File"  >
+     </div>
    </div>
 </div>
 </div>
